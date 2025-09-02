@@ -44,7 +44,7 @@ const Navbar = () => {
           <li><a className="font-ovo hover:text-gray-700 transition-colors" href="#top">Home</a></li>
           <li><a className="font-ovo hover:text-gray-700 transition-colors" href="#about">About Me</a></li>
           <li><a className="font-ovo hover:text-gray-700 transition-colors" href="#services">Services</a></li>
-          <li><a className="font-ovo hover:text-gray-700 transition-colors" href="#work">My Work</a></li>
+          <li><a className="font-ovo hover:text-gray-700 transition-colors" href="#work">My Project</a></li>
           <li><a className="font-ovo hover:text-gray-700 transition-colors" href="#contact">Contact Me</a></li>
         </ul>
 
