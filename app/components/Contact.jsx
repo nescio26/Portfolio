@@ -259,7 +259,7 @@ const Contact = () => {
                 Send this message?
               </h3>
               <p className="text-gray-600 mb-6">
-                We’ll send your message to the site owner using Web3Forms.
+                We’ll forward your message to the appropriate recipient.
               </p>
               <div className="flex justify-end gap-3">
                 <motion.button
