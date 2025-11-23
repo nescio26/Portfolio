@@ -1,3 +1,4 @@
+// app/page.js
 'use client'
 import { useState, useEffect } from "react";
 
@@ -7,6 +8,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+// Remove MoreProjects import from here
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -39,7 +41,7 @@ export default function Home() {
     <>
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
       <Header isDarkMode={isDarkMode}/>
-      <About  isDarkMode={isDarkMode}/>
+      <About isDarkMode={isDarkMode}/>
       <Services isDarkMode={isDarkMode}/>
       <Work isDarkMode={isDarkMode}/>
       <Contact isDarkMode={isDarkMode}/>

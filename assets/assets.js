@@ -9,6 +9,7 @@ import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
+import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -39,9 +40,11 @@ import circle_profile from './circle_profile.jpg';
 import long_profile from './long_profile.jpg';
 import profile_image from './profile_image.jpg';
 import image_profile_2 from './image_profile_2.jpg';
+import android from './android.png';
 
 
 export const assets = {
+    android,
     user_image,
     code_icon,
     code_icon_dark,
@@ -137,5 +140,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.figma, assets.android
 ];
