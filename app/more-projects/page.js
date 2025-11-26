@@ -55,11 +55,11 @@ const moreProjectsData = [
   },
   {
     id: 10,
-    title: "Social Media Analytics",
-    category: "Data Visualization",
-    description: "Comprehensive dashboard for analyzing social media engagement metrics and performance analytics.",
-    technologies: ["D3.js", "Express.js", "PostgreSQL", "Data Visualization"],
-    image: "/work-10.png",
+    title: "Wanna Ordering System",
+    category: "Full Stack Development",
+    description: "A web-based ordering system for restaurants, featuring menu browsing, order tracking, and admin management tools.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Xampp", "Visual Studio Code"],
+    image: "/work-26.png",
     link: "https://github.com/yourusername/social-analytics",
     github: "https://github.com/yourusername/social-analytics"
   },

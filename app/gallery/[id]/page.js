@@ -47,7 +47,7 @@ const allProjectsData = [
     title: "E-Procurement Platform",
     category: "Full Stack Development",
     description: "A system to streamline and digitize procurement processes for businesses this include Purchase Requisition, Approval Workflows, and Request Tracking.",
-    technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP", "Visual Studio Code,"],
+    technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP", "Visual Studio Code"],
     image: "/work-13.png",
     link: "https://github.com/yourusername/task-app",
     github: "https://github.com/yourusername/task-app",
@@ -92,7 +92,37 @@ const allProjectsData = [
       "Accessibility-Focused Design",
       "Design Documentation"
     ]
-  }
+  },
+  {
+    id: 10,
+    title: "Wanna Ordering System",
+    category: "Full Stack Development",
+    description: "A web-based ordering system for restaurants, featuring menu browsing, order tracking, and admin management tools.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Xampp", "Visual Studio Code"],
+    image: "/work-26.png",
+    link: "https://github.com/yourusername/social-analytics",
+    github: "https://github.com/yourusername/social-analytics",
+
+
+    galleryImages: [
+      "/work-21.png", 
+      "/work-20.png", 
+      "/work-22.png", 
+      "/work-23.png", 
+      "/work-24.png", 
+      "/work-25.png"  
+    ],
+    features: [
+      "Complete User Flow Design",
+      "Interactive Prototype",
+      "Design System & Component Library",
+      "User Personas & Journey Mapping",
+      "Wireframes & High-Fidelity Mockups",
+      "Mobile-First Responsive Design",
+      "Accessibility-Focused Design",
+      "Design Documentation"
+    ]
+  },
 ];
 
 export default function GalleryPage() {
