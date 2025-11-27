@@ -35,7 +35,7 @@ const moreProjectsData = [
   },
   {
     id: 8,
-    title: "E-Procurement Platform",
+    title: "Purchase Requisition System",
     category: "Full Stack Development",
     description: "A system to streamline and digitize procurement processes for businesses this include Purchase Requisition, Approval Workflows, and Request Tracking.",
     technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP", "Visual Studio Code,"],
@@ -69,12 +69,22 @@ const moreProjectsData = [
     category: "Web Design & Development",
     description: "Responsive portfolio website with modern design, smooth animations and optimized performance.",
     technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Responsive Design"],
+    image: "/work-27.png",
+    link: "https://portfolio-muhammad-syahmi.vercel.app/",
+    github: "https://github.com/yourusername/portfolio"
+  },
+   {
+    id: 12,
+    title: "Portfolio Website",
+    category: "Web Design & Development",
+    description: "Responsive portfolio website with modern design, smooth animations and optimized performance.",
+    technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Responsive Design"],
     image: "/work-11.png",
     link: "https://your-portfolio.vercel.app",
     github: "https://github.com/yourusername/portfolio"
   },
   {
-    id: 12,
+    id: 13,
     title: "Chat Application",
     category: "Real-time Application",
     description: "Real-time messaging app with rooms, file sharing capabilities and user authentication.",
