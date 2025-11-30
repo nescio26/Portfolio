@@ -38,7 +38,7 @@ const moreProjectsData = [
     title: "Purchase Requisition System",
     category: "Full Stack Development",
     description: "A system to streamline and digitize procurement processes for businesses this include Purchase Requisition, Approval Workflows, and Request Tracking.",
-    technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP", "Visual Studio Code,"],
+    technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP", "Visual Studio Code"],
     image: "/work-13.png",
     link: "https://github.com/yourusername/task-app",
     github: "https://github.com/yourusername/task-app"
@@ -75,13 +75,13 @@ const moreProjectsData = [
   },
    {
     id: 12,
-    title: "Portfolio Website",
-    category: "Web Design & Development",
-    description: "Responsive portfolio website with modern design, smooth animations and optimized performance.",
-    technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Responsive Design"],
-    image: "/work-11.png",
-    link: "https://your-portfolio.vercel.app",
-    github: "https://github.com/yourusername/portfolio"
+    title: "Production Planning System",
+    category: "Full Stack Development",
+    description: "A system to streamline and digitize procurement processes for businesses this include Purchase Requisition, Approval Workflows, and Request Tracking.",
+    technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP", "Visual Studio Code"],
+    image: "/work-13.png",
+    link: "https://github.com/yourusername/task-app",
+    github: "https://github.com/yourusername/task-app"
   },
   {
     id: 13,

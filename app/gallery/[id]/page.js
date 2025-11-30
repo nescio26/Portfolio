@@ -123,6 +123,29 @@ const allProjectsData = [
       "Design Documentation"
     ]
   },
+   {
+    id: 12,
+    title: "Production Planning System",
+    category: "Full Stack Development",
+    description: "A system to streamline and digitize procurement processes for businesses this include Purchase Requisition, Approval Workflows, and Request Tracking.",
+    technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP", "Visual Studio Code"],
+    image: "/work-13.png",
+    link: "https://github.com/yourusername/task-app",
+    github: "https://github.com/yourusername/task-app",
+    galleryImages: [
+      "/work-8.png",
+      "/work-10.png",
+      "/work-11.png",
+      "/work-12.png"
+    ],
+    features: [
+      "Real-time Dashboard",
+      "Status Tracking",
+      "Export Data in CSV and PDF",
+      "Role-based Access Control"
+    ]
+  },
+
 ];
 
 export default function GalleryPage() {
