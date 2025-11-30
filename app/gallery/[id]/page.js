@@ -102,8 +102,6 @@ const allProjectsData = [
     image: "/work-26.png",
     link: "https://github.com/yourusername/social-analytics",
     github: "https://github.com/yourusername/social-analytics",
-
-
     galleryImages: [
       "/work-21.png", 
       "/work-20.png", 
@@ -123,27 +121,34 @@ const allProjectsData = [
       "Design Documentation"
     ]
   },
+   
    {
-    id: 12,
-    title: "Production Planning System",
-    category: "Full Stack Development",
-    description: "A system to streamline and digitize procurement processes for businesses this include Purchase Requisition, Approval Workflows, and Request Tracking.",
-    technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP", "Visual Studio Code"],
-    image: "/work-13.png",
-    link: "https://github.com/yourusername/task-app",
-    github: "https://github.com/yourusername/task-app",
-    galleryImages: [
-      "/work-8.png",
-      "/work-10.png",
-      "/work-11.png",
-      "/work-12.png"
+  id: 12,
+  title: "Production Planning System (MES)",
+  category: "Full Stack Development",
+  description: "A comprehensive Manufacturing Execution System designed to optimize production workflows. Includes end-to-end planning features such as Material Management, BOM, Load Planning, Work Orders, Production Tracking, Inventory Control, Reporting, and a real-time Dashboard.",
+  technologies: ["HTML", "CSS", "JavaScript", "Firebase", "PHP", "Visual Studio Code"],
+  image: "/work-pps.png",
+  link: "https://github.com/yourusername/pps-system",
+  github: "https://github.com/yourusername/pps-system",
+  galleryImages: [
+      "/work-28.png", 
+      "/work-29.png", 
+      "/work-30.png", 
+      "/work-31.png", 
+      "/work-32.png", 
+      "/work-36.png",
+      "/work-33.png"
     ],
-    features: [
-      "Real-time Dashboard",
-      "Status Tracking",
-      "Export Data in CSV and PDF",
-      "Role-based Access Control"
-    ]
+  features: [
+    "Material & Inventory Management",
+    "Bill of Materials (BOM)",
+    "Load & Capacity Planning",
+    "Work Order Creation & Scheduling",
+    "Real-time Production Tracking",
+    "Comprehensive Reporting Module"
+  ]
+
   },
 
 ];

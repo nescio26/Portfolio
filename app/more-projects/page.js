@@ -77,11 +77,11 @@ const moreProjectsData = [
     id: 12,
     title: "Production Planning System",
     category: "Full Stack Development",
-    description: "A system to streamline and digitize procurement processes for businesses this include Purchase Requisition, Approval Workflows, and Request Tracking.",
-    technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP", "Visual Studio Code"],
-    image: "/work-13.png",
-    link: "https://github.com/yourusername/task-app",
-    github: "https://github.com/yourusername/task-app"
+    description: "A comprehensive Manufacturing Execution System designed to optimize production workflows. Includes end-to-end planning features such as Material Management, BOM, Load Planning, Work Orders, Production Tracking, Inventory Control, Reporting, and a real-time Dashboard.",
+    technologies: ["HTML", "CSS", "JavaScript", "Firebase", "PHP", "Visual Studio Code"],
+    image: "/work-pps.png",
+    link: "https://github.com/yourusername/pps-system",
+    github: "https://github.com/yourusername/pps-system"
   },
   {
     id: 13,
