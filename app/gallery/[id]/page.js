@@ -227,9 +227,9 @@ export default function GalleryPage() {
       {/* Navigation Bar */}
       <nav className="w-full px-[12%] py-6 border-b border-gray-200">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold font-Ovo text-gray-900">
-            Portfolio
-          </Link>
+            <a href="#top">
+            <Image src={assets.logo} alt="Logo" className="w-40 cursor-pointer" />
+            </a>
           <div className="flex items-center gap-4">
             <Link 
               href="/more-projects"
