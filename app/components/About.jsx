@@ -76,7 +76,7 @@ const About = () => {
             I am a final-year IT student with hands-on experience in web and mobile application development.
             Skilled in Android (Java), Firebase, and front-end technologies, I enjoy building user-friendly systems
             that solve real-world problems. My projects, including <span className="font-semibold">PriceChecker</span>&nbsp;
-            and <span className="font-semibold">Wanna Booking System</span>, reflect my ability to combine clean UI/UX
+            and <span className="font-semibold">Wanna Ordering System</span>, reflect my ability to combine clean UI/UX
             with practical functionality. I am eager to apply my skills in a professional setting and grow as a software developer.
           </p>
 
