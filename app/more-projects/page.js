@@ -47,7 +47,7 @@ const moreProjectsData = [
     id: 9,
     title: "Flavorsome - Cooking Assistant",
     category: "UI/UX Design",
-    description: "A comprehensive mobile app UI/UX design for a cooking assistant that helps users discover recipes, plan meals, manage grocery lists, and order ingredients seamlessly.",
+    description: "A comprehensive mobile app UI/UX design for a cooking assistant that helps users discover recipes, plan meals, manage grocery lists, and order ingredients seamlessly. You can click the demo link to view the interactive prototype on Figma.",
     technologies: ["Figma", "UI Design", "UX Research", "Wireframing", "Prototyping", "Design System"],
     image: "/work-5.png",
     link: "https://www.figma.com/proto/z8Cc91940BEOAmEfIMQmkI/FLAVORSOME?node-id=58-14&p=f&t=MjMRKZywz6RtajKZ-1&scaling=scale-down&content-scaling=responsive&page-id=0%3A1&starting-point-node-id=58%3A14",
@@ -79,19 +79,9 @@ const moreProjectsData = [
     category: "Full Stack Development",
     description: "A comprehensive Manufacturing Execution System designed to optimize production workflows. Includes end-to-end planning features such as Material Management, BOM, Load Planning, Work Orders, Production Tracking, Inventory Control, Reporting, and a real-time Dashboard.",
     technologies: ["HTML", "CSS", "JavaScript", "Firebase", "PHP", "Visual Studio Code"],
-    image: "/work-pps.png",
+    image: "/work-38.png",
     link: "https://github.com/yourusername/pps-system",
     github: "https://github.com/yourusername/pps-system"
-  },
-  {
-    id: 13,
-    title: "Chat Application",
-    category: "Real-time Application",
-    description: "Real-time messaging app with rooms, file sharing capabilities and user authentication.",
-    technologies: ["Socket.io", "React", "Node.js", "JWT", "File Upload"],
-    image: "/work-12.png",
-    link: "https://github.com/yourusername/chat-app",
-    github: "https://github.com/yourusername/chat-app"
   }
 ];
 

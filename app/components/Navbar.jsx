@@ -101,7 +101,7 @@ const Navbar = ({
           <li><a className="font-ovo" href="#top" onClick={() => setMenuOpen(false)}>Home</a></li>
           <li><a className="font-ovo" href="#about" onClick={() => setMenuOpen(false)}>About Me</a></li>
           <li><a className="font-ovo" href="#services" onClick={() => setMenuOpen(false)}>Services</a></li>
-          <li><a className="font-ovo" href="#work" onClick={() => setMenuOpen(false)}>My Work</a></li>
+          <li><a className="font-ovo" href="#work" onClick={() => setMenuOpen(false)}>My Project</a></li>
           <li><a className="font-ovo" href="#contact" onClick={() => setMenuOpen(false)}>Contact Me</a></li>
         </ul>
       </>

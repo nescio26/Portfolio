@@ -58,16 +58,13 @@ const Services = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
           viewport={{ once: false, amount: 0.3 }}
         >
-          I specialize in creating modern, user-friendly, and efficient digital solutions.
-          From responsive web development to mobile applications and UI/UX design,
-          my focus is on delivering services that combine creativity with functionality
-          to help businesses and individuals achieve their goals.
+          I develop modern, user-friendly, and efficient digital solutions tailored to real-world needs. My skills include responsive web development, mobile app interfaces, and UI/UX design. I focus on creating clean, functional, and visually appealing products while continuously improving my technical abilities. My goal is to help businesses and individuals solve problems through practical, creative, and well-designed solutions.
         </motion.p>
       </div>
 
       {/* Service Cards */}
       <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+        className="flex flex-wrap justify-center gap-8"
         variants={containerVariants}
         initial="hidden"
         whileInView="show"
@@ -79,7 +76,7 @@ const Services = () => {
             variants={cardVariants}
             whileHover={{ y: -6, scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="bg-white rounded-2xl p-6 flex flex-col items-start cursor-pointer hover:shadow-xl transition-transform duration-300"
+            className="bg-white rounded-2xl p-6 flex flex-col items-start cursor-pointer hover:shadow-xl transition-transform duration-300 max-w-sm"
           >
             {/* Icon */}
             <div className="bg-blue-100 p-3 rounded-full mb-4">
