@@ -2,16 +2,26 @@
 "use client";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Header = ({ isDarkMode }) => {
   const roles = [
     "Full Stack Developer",
     "UI/UX Designer",
-    "Problem Solver",
+    "Front-End Developer",
     "Tech Enthusiast",
   ];
+
+  // State to handle the cycling of roles
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % roles.length);
+    }, 3000); // Changes role every 3 seconds
+    return () => clearInterval(timer);
+  }, [roles.length]);
 
   return (
     <section
@@ -60,9 +70,8 @@ const Header = ({ isDarkMode }) => {
               </span>
             </motion.h1>
 
-            {/* Animated Role */}
             <motion.div
-              className="mb-6"
+              className="mb-6 h-12" // Fixed height prevents layout jump
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.35 }}
@@ -81,17 +90,20 @@ const Header = ({ isDarkMode }) => {
                     d="M13 10V3L4 14h7v7l9-11h-7z"
                   />
                 </svg>
-                <span className="text-gray-700 dark:text-gray-300 font-medium">
-                  <motion.span
-                    key={roles[0]}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="inline-block"
-                  >
-                    {roles[0]}
-                  </motion.span>
-                </span>
+                <div className="relative overflow-hidden">
+                  <AnimatePresence mode="wait">
+                    <motion.span
+                      key={roles[index]}
+                      initial={{ opacity: 0, y: 15 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -15 }}
+                      transition={{ duration: 0.5 }}
+                      className="text-gray-700 dark:text-gray-300 font-medium block"
+                    >
+                      {roles[index]}
+                    </motion.span>
+                  </AnimatePresence>
+                </div>
               </div>
             </motion.div>
 
@@ -186,10 +198,8 @@ const Header = ({ isDarkMode }) => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="relative group">
-              {/* Background Glow Effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
 
-              {/* Image Container */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-blue-600/20 shadow-2xl group-hover:scale-105 transition-transform duration-500">
                 <Image
                   src={assets.profile_image}
@@ -198,11 +208,9 @@ const Header = ({ isDarkMode }) => {
                   className="object-cover"
                   priority
                 />
-                {/* Overlay Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
 
-              {/* Decorative Rings */}
               <div className="absolute -inset-4 border-2 border-blue-500/20 rounded-full animate-pulse"></div>
               <div className="absolute -inset-8 border-2 border-purple-500/20 rounded-full animate-pulse delay-300"></div>
             </div>
