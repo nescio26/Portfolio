@@ -10,17 +10,13 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 
 export default function Home() {
-  // Set dark mode to true by default and force it
   const [isDarkMode, setIsDarkMode] = useState(true);
 
-  // Initialize theme - always dark mode
   useEffect(() => {
-    // Force dark mode
     document.documentElement.classList.add("dark");
     localStorage.setItem("theme", "dark");
   }, []);
 
-  // Keep dark mode applied if any changes occur
   useEffect(() => {
     document.documentElement.classList.add("dark");
     localStorage.setItem("theme", "dark");
