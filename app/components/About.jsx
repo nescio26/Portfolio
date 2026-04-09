@@ -149,7 +149,10 @@ const About = ({ isDarkMode }) => {
           />
         </svg>
       ),
-      skills: ["Bahasa Melayu (Proficient)", "English (Intermediate)"],
+      skills: [
+        "Bahasa Melayu (Proficient)",
+        "English (Professional Working Proficiency)",
+      ],
     },
   ];
 
