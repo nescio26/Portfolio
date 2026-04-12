@@ -89,7 +89,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
   };
 
   // Resume file path
-  const resumePath = "/MuhammadSyahmi_Resume_without reference.pdf";
+  const resumePath = "/Muhammad_Syahmi_Resume.pdf";
 
   return (
     <nav
