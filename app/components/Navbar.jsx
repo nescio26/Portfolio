@@ -110,9 +110,9 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <div className="flex flex-col group cursor-pointer">
               <div className="flex items-baseline">
                 <span
-                  className={`text-2xl md:text-3xl font-black tracking-tighter transition-all duration-500 ease-in-out group-hover:tracking-normal text-white group-hover:text-blue-400`}
+                  className={`text-2xl md:text-3xl font-black tracking-wide transition-all duration-500 ease-in-out group-hover:tracking-normal text-white group-hover:text-blue-400`}
                 >
-                  SYAHMI MANAF
+                  Syahmi Manaf
                 </span>
                 {/* The Signature Red Dot */}
                 <span className="ml-1 w-2 h-2 md:w-2.5 md:h-2.5 bg-red-500 rounded-full inline-block animate-pulse"></span>

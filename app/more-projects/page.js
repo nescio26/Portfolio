@@ -44,6 +44,26 @@ const moreProjectsData = [
     github: "https://github.com/nescio26/NovaPos.git",
   },
   {
+    id: 14,
+    title: "PawCare - Veterinary Clinic Management System",
+    category: "Full Stack Development",
+    description:
+      "A full-stack MERN application for managing veterinary clinic operations including owner and pet management, visit scheduling, medical records, and live queue system. Features role-based authentication, real-time updates using Socket.io, and automated queue handling for improved clinic workflow efficiency. The system also includes an analytics dashboard for visualizing clinic performance and insights.",
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Socket.io",
+      "JWT",
+      "RESTful APIs",
+    ],
+    image: "/work-48.png",
+    link: "https://paw-care-sigma.vercel.app/",
+    github: "https://github.com/nescio26/PawCare",
+  },
+  {
     id: 7,
     title: "PriceChecker Application & Web System",
     category: "Full Stack Development",
