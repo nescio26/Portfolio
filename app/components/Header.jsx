@@ -8,10 +8,10 @@ import { Analytics } from "@vercel/analytics/next";
 
 const Header = ({ isDarkMode }) => {
   const roles = [
-    "Full Stack Developer",
-    "UI/UX Designer",
+    "Software Developer",
+    "System Analyst",
     "Front-End Developer",
-    "Tech Enthusiast",
+    "QA / Software Testing",
   ];
 
   // State to handle the cycling of roles
@@ -20,7 +20,7 @@ const Header = ({ isDarkMode }) => {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % roles.length);
-    }, 3000); // Changes role every 3 seconds
+    }, 4000); // Changes role every 4 seconds
     return () => clearInterval(timer);
   }, [roles.length]);
 
@@ -51,10 +51,6 @@ const Header = ({ isDarkMode }) => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-medium mb-6">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
-                </span>
                 Welcome to my portfolio
               </span>
             </motion.div>

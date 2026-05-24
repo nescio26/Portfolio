@@ -114,8 +114,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                 >
                   Syahmi Manaf
                 </span>
-                {/* The Signature Red Dot */}
-                <span className="ml-1 w-2 h-2 md:w-2.5 md:h-2.5 bg-red-500 rounded-full inline-block animate-pulse"></span>
               </div>
             </div>
           </button>
