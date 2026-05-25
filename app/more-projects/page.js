@@ -89,7 +89,7 @@ const moreProjectsData = [
       "A system to streamline and digitize procurement processes for businesses including Purchase Requisition, Approval Workflows, and Request Tracking.",
     technologies: ["HTML", "Firebase", "JavaScript", "CSS", "PHP"],
     image: "/work-13.png",
-    link: "https://github.com/yourusername/task-app",
+    link: "https://eprocurement.crfmdigital.com/",
     github: "https://github.com/yourusername/task-app",
   },
   {
@@ -144,7 +144,7 @@ const moreProjectsData = [
       "A comprehensive Manufacturing Execution System designed to optimize production workflows. Includes Material Management, BOM, Load Planning, Work Orders, Production Tracking, Inventory Control, Reporting, and a real-time Dashboard.",
     technologies: ["HTML", "CSS", "JavaScript", "Firebase", "PHP"],
     image: "/work-38.png",
-    link: "https://github.com/yourusername/pps-system",
+    link: "https://production.crfmdigital.com/login.html",
     github: "https://github.com/yourusername/pps-system",
   },
 ];
